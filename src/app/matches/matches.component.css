@@ -1,0 +1,21 @@
+/* CSS for Matches Component */
+
+/* Equal height for card containers */
+.card.mb-4 {
+    height: 90%;
+  }
+  
+  /* Flex container for aligning images */
+  .card.mb-4 .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  /* Style for card images */
+  .card-img-top {
+    height: 160px; /* Adjust the height as needed (make it consistent for all images) */
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,17 @@
+<div class="container mt-4">
+    <h3 class="text-primary">Indian Cricket Team Players</h3>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let player of players">
+        <div class="card mb-4">
+          <img [src]="player.image" class="card-img-top player-image" alt="{{ player.name }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ player.name }}</h5>
+            <p class="card-text">{{ player.statistics }}</p>
+            <p class="card-text">{{ player.achievements }}</p>
+            <p class="card-text">{{ player.highlights }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,9 @@
+/* Add this to your players.component.css file */
+.player-image {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  .player-card {
+    height: 100%; /* Adjust this value as needed */
+  }
+  

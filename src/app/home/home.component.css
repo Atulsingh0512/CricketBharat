@@ -1,0 +1,20 @@
+/* CSS for adjusting card size */
+.card {
+    width: 100%;
+    border: 1px solid #ccc; /* Optional: Add borders for visual separation */
+  }
+  
+  .card-img-top {
+    height: 250px; /* Adjust the desired height for your card images */
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Adjust the title font size */
+    margin-bottom: 10px; /* Optional: Add margin for spacing */
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Adjust the text font size */
+  }
+  /* ----------------------------------------------------------------------------- */

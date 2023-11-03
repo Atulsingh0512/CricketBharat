@@ -1,0 +1,33 @@
+<div class="container mt-4">
+  <h3 class="text-primary">Upcoming Matches</h3>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let match of upcomingMatches">
+      <div class="card mb-4">
+        <img [src]="match.image" class="card-img-top" alt="{{ match.venue }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ match.date }}</h5>
+          <p class="card-text">{{ match.teams }}</p>
+          <p class="card-text">{{ match.venue }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <h3 class="text-primary">Recent Results</h3>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let result of recentResults">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">{{ result.date }}</h5>
+          <p class="card-text">{{ result.teams }}</p>
+          <p class="card-text">{{ result.result }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
